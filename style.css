@@ -41,6 +41,11 @@ body * {
   font-family: "Roboto", sans-serif;
 }
 
+.logocopa { 
+ width: min-content;
+ height: 120px;
+}
+
 #app {
   width: fit-content;
   margin: auto;
@@ -93,7 +98,18 @@ header {
   width: 270px;
 }
 
-.card ul li {
+.card ul li .group {
+  padding: 5px 10px;
+  border: 1px solid var(--card-title-border-color);
+  border-radius: 6px;
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 10px;
+  color: #f7dd43;
+  font-size: small;
+}
+
+.card ul li .teams {
   display: flex;
   align-items: center;
   justify-content: space-between;
