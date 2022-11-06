@@ -81,7 +81,7 @@ header {
   border-radius: 6px;
   width: fit-content;
   margin-inline: auto;
-  margin-bottom: 53px;
+  margin-bottom: 15px;
   color: #f7dd43;
 }
 
@@ -94,8 +94,8 @@ header {
 .card ul {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  width: 270px;
+  gap: 15px;
+  width: 220px;
 }
 
 .card ul li .group {
@@ -140,7 +140,7 @@ header {
 }
 
 .card {
-  animation: appear .5s
+  animation: appear .2s
 }
 
 @keyframes appear {
