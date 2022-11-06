@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+h2 {
+  color: #f7dd43;
+  font-family:'Times New Roman', Times, serif;
+  margin: 30px;
+  text-align: center;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid var(--card-title-border-color);
+  border-radius: 6px;
+  margin-inline: auto;
+  margin-bottom: 15px;
+}
+
 :root {
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
@@ -53,14 +69,55 @@ body * {
 }
 
 header {
-  margin-bottom: 63px;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+.color-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.color-button button {
+  position: relative;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  opacity: .5;
+}
+
+.color-button button:hover {
+  opacity: 1;
+}
+
+.color-button button.active {
+  outline: 3px solid var(--card-color-primary);
+  border: 4px solid rgba(0, 0, 0, .5)
+}
+
+#yellow {
+  background-color: #f7dd43;
+}
+
+#blue {
+  background-color: #338af3;
+}
+
+#green {
+  background-color: #047c3f;
 }
 
 #cards {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  justify-content: center;
 }
 
 .card {
