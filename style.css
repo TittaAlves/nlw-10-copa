@@ -197,7 +197,7 @@ header {
 }
 
 .card {
-  animation: appear .2s
+  animation: appear .0s
 }
 
 @keyframes appear {
